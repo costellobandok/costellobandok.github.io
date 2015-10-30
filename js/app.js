@@ -5,11 +5,11 @@ costelloApp.config(['$routeProvider', '$locationProvider', function($routeProvid
 
   $routeProvider
     .when('/', {
-      templateUrl: '/home.html',
+      templateUrl: '/views/main.html',
       controller:  'HomeController'
     })
-    .when('/splash',{
-      templateUrl: '/views/splash.html',
+    .when('/about',{
+      templateUrl: '/views/about.html',
       controller: 'HomeController'
     })
     .when('/main',{
@@ -18,6 +18,10 @@ costelloApp.config(['$routeProvider', '$locationProvider', function($routeProvid
     })
     .when('/contact',{
       templateUrl: '/views/contact.html',
+      controller: 'HomeController'
+    })
+    .when('/images',{
+      templateUrl: '/views/images.html',
       controller: 'HomeController'
     })
     .otherwise({
@@ -31,6 +35,17 @@ costelloApp.config(['$routeProvider', '$locationProvider', function($routeProvid
 
 
 costelloApp.controller('HomeController', ['$scope','$location', function($scope,$location) {
+
+$(document).ready(function(){
+    $(".navbar-toggle").click(function(){
+        $(".collapse").collapse('toggle');
+
+
+    });
+
+    $('.carousel').carousel()
+
+});
 
   console.log($location.path());
 
