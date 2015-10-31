@@ -1,41 +1,40 @@
 <div id="contactMain" ng-controller="HomeController" class="col-md-12 col-sm-12">
   <div id="main">
-        <nav id="banner" class="navbar navbar-default">
-      <div class="navbar-header">
-        <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#myNavbar">
-          <span class="icon-bar"></span>
-          <span class="icon-bar"></span>
-          <span class="icon-bar"></span>
-        </button>
-      </div>
-      <div id="navLeft" class="col-md-8 col-sm-8">
-        <a id="bannerA" href="http://costellobandok.github.io/#!/main"><h1 id="bannerText" font-family="Majesti-Banner-Medium">COSTELLO</h1></a>
-      </div>
-      <div id="bannerLinks" class="col-md-4 col-sm-4 navbar-collapse collapse">
-        <div>
-          <ul class="nav navbar-nav">
-            <li><a class="bannerLinks" href="http://www.costellobandok.bandcamp.com">Bandcamp</a></li>
-            <li><a class="bannerLinks" href="http://costellobandok.github.io/#!/about">About</a></li>
-              <!-- <li><a class="bannerLinks" href="http://localhost:8000/#!/images">Images</a></li> -->
-            <li><a class="bannerLinks" href="">Contact</a></li>
-          </ul>
+        <div id="banner" class="navbar navbar-inverse navbar-static-top" role="navigation">
+      <div id="cf" class="container-fluid">
+        <div class="navbar-header">
+        <div id="navLeft">
+          <a id="bannerA"><h1 id="bannerText" font-family="Majesti-Banner-Medium">COSTELLO</h1></a>
+        </div>
+          <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse"> <span class="sr-only">Toggle navigation</span>
+ <span class="icon-bar"></span>
+ <span class="icon-bar"></span>
+ <span class="icon-bar"></span>
+          </button>
+        </div>
+
+        <div class="collapse navbar-collapse" id="bannerLinks">
+            <ul class="nav navbar-nav navbar-right">
+              <li><a class="bannerLinks" href="http://www.costellobandok.bandcamp.com">Bandcamp</a></li>
+              <li><a class="bannerLinks" href="">About</a></li>
+              <li><a class="bannerLinks" href="http://costellobandok.github.io/#!/contact">Contact</a></li>
+            </ul>
+        </div>
         </div>
       </div>
-    </nav>
-  <div class="col-md-12" style="color:white;">
-    <center><h2>Contact:</h2></center>
+    </div>
+  <div id="contactBody" class="col-md-12" style="color:white;">
+    <center><h2 style="color: #bfbfbf">Contact:</h2></center>
     <div class="col-md-2">
     </div>
     <div id="contact" class="col-md-8">
       <div class="col-md-6">
         <img id="contactImg" src="../img/ccFgarage2.jpg">
       </div>
-      <div id="contactContent" class="col-md-2">
+      <div id="contactContent" class="col-md-6">
         Booking: <br>
         costellobandok@gmail.com<br><br>
-        Recording: <br>
-        trent@belllabsrecording.com<br><br>
-        Production: <br>
+        Recording/Production: <br>
         info@blackwatchstudios.com<br><br>
         Website: <br>
         riley.m.joseph1@gmail.com <br><br>
@@ -45,12 +44,13 @@
     </div>
   </div>
   <div id="footer" class="col-md-12 navbar navbar-inverse navbar-fixed-bottom">
-    <div class="col-md-3" id="footerLeft">
-      <a href="http://www.rileyjoseph.co">
-        <img id="rjLogo" alt="Brand" src="../img/rjLogo.png"><p>Website by Riley Joseph</p>
+    <div class="col-md-3 col-sm-3 col-xs-3" id="footerLeft">
+      <a style="color:#323232;" href="http://www.rileyjoseph.co">
+        Website by Riley Joseph
       </a>
     </div>
-    <div class="col-md-6">
+    <div id="copywrite" style="color:#bfbfbf" class="col-md-6 col-sm-6 col-xs-6">
+      Copyright &copy; Costello 2015
     </div>
     <div class="col-md-3">
       <a href="http://www.facebook.com/costellobandok"><i class="fa fa-facebook-square fa-2x"></i></a>
