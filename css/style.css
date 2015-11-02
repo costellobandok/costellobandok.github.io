@@ -92,11 +92,11 @@ i.fa {
 /*---------------------------------------MAIN PAGE------------------------------------------*/
 
 html{
-  max-height: 100%;
+  /*max-height: 100%;*/
 }
 
 body{
-  max-height: 100%;
+  /*max-height: 100%;*/
   /*padding-top: 70px;*/
 }
 
@@ -172,9 +172,27 @@ p#bannerText2 {
   /*padding-left: 57%;*/
 }
 
+/*html{
+  background: url(/img/manifestArtCrop2.png) no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}*/
+
+#bg {
+  position: fixed;
+  top: 0;
+  left: 0;
+
+  /* Preserve aspet ratio */
+  min-width: 100%;
+  min-height: 100%;
+}
+
 #musicMain{
-  background-image: url(/img/manifestArtCrop2.png);
-  background: cover;
+  /*background-image: url(/img/manifestArtCrop2.png);*/
+  /*background: transparent;*/
   height: auto;
   min-height: 150%;
   padding-left: 0px;
