@@ -215,12 +215,18 @@ p#bannerText2 {
 
 #about{
   /*background-image: url("../img/manifestArt.");*/
-  height: 80%;
+  min-height: 80%;
   padding-top: 30px;
   color: #bfbfbf;
   font-family:'Majesti-Banner-Medium';
   text-align: center;
   background-size: 100%;
+}
+
+#aboutImg{
+  width: 50%;
+  margin-bottom: 50px;
+  padding-bottom: 50px;
 }
 
 #contactMain{
