@@ -1,67 +1,99 @@
-<div id="musicMain" ng-controller="HomeController" class="col-md-12 col-sm-12">
-  <div id="main">
-<img src="/img/manifestArtCrop2.png" id="bg" alt="">
-  <div id="banner" class="navbar navbar-inverse navbar-static-top" role="navigation">
-      <div id="cf" class="container-fluid">
-        <div class="navbar-header">
-        <div id="navLeft">
-          <a id="bannerA"><h1 id="bannerText" font-family="Majesti-Banner-Medium">COSTELLO</h1></a>
-        </div>
-          <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse"> <span class="sr-only">Toggle navigation</span>
- <span class="icon-bar"></span>
- <span class="icon-bar"></span>
- <span class="icon-bar"></span>
-          </button>
-        </div>
-<!--         <div id="navLeft" class="col-md-2 col-sm-2">
-        </div>
-        <div id="navLeft" class="col-md-4 col-sm-4">
-          <a id="bannerA"><h1 id="bannerText" font-family="Majesti-Banner-Medium">COSTELLO</h1></a>
-        </div> -->
-        <!-- <div id="navLeft" class="col-md-6 col-sm-6"> -->
-        <div class="collapse navbar-collapse" id="bannerLinks">
-            <ul class="nav navbar-nav navbar-right">
-              <li><a class="bannerLinks" href="http://www.costellobandok.bandcamp.com">Bandcamp</a></li>
-              <li><a class="bannerLinks" href="http://costellobandok.com/#!/about">About</a></li>
-              <li><a class="bannerLinks" href="http://costellobandok.com/#!/contact">Contact</a></li>
-            </ul>
-        </div>
-        </div>
-      </div>
+<div id="musicBackground" ng-controller="HomeController">
+  <div id="musicTitleBar">
+        <p id="musicTitle2"><span style="letter-spacing:0;"></span></p>
+  </div>
+
+  <div id="sideBar">
+    <center>
+    <a href="http://www.facebook.com/costellobandok"><i class="fa fa-facebook-square fa-3x"></i></a><br>
+    <a href="https://instagram.com/costellotheband"><i class="fa fa-instagram fa-3x"></i></a><br>
+    <a href="http://www.twitter.com/costellobandok"><i class="fa fa-twitter-square fa-3x"></i></a><br>
+    <!-- <a href="#"><i class="fa fa-youtube-square fa-3x"></i></a><br> -->
+    <a href="https://open.spotify.com/artist/4wJW3tvY1lVxNxCh7J5T8Y"><i class="fa fa-spotify fa-3x"></i></a><br>
+    <!-- <a href="#"><i class="fa fa-soundcloud fa-3x"></i></a><br> -->
+    </center>
+  </div>
+  <!-- Landing - New Ablum Cover, Links -->
+  <div id="album" class="container">
+    <img id="musicAlbum" src="../img/conscioustrip.png">
+    <div class="mainLinks">
+      <a class="links" href="http://www.costellobandok.bandcamp.com">Bandcamp</a>
+      <a class="links" href="#aboutSection">About</a>
+      <a class="links" href="#contactSection">Contact</a>
     </div>
-
+    <div class="textCenter">
+      <a href="#singleSection">
+        <p>
+          <i id="center" class="fa fa-angle-double-down" aria-hidden="true"></i>
+        </p>
+      </a>
+    </div>
+  </div>
+  <!-- First section, embedded single and twitter -->
+<!--   <div id="singleSection" class="col-md-12 col-sm-12">
+      <iframe src="https://bandcamp.com/EmbeddedPlayer/track=2857271124/size=large/bgcol=ffffff/linkcol=333333/tracklist=false/transparent=true/" seamless><a href="http://costellobandok.bandcamp.com/track/murdoch">Murdoch by Costello</a></iframe>
+  </div> -->
+  <!-- Section 1 - About -->
+  <div id="aboutSection" class="col-md-12 col-sm-12">
+    <div id="aboutTitle" class="col-md-12 col-sm-12">
+        <h1>About the Band</h1>
+    </div>
     <div id="mainBody" class="col-md-12 col-sm-12">
-      <div id="mainContent" class="col-md-12 col-sm-12">
-        <!-- <h1 style="text-align: center; color: #bfbfbf">'Manifest' Availble Now</h1> -->
-        <div id="shows" class="col-md-2 col-sm-2">
-        </div>
-        <div id="shows" class="col-md-4 col-sm-4">
-          <h2 class="titles"style="color:#bfbfbf;">Upcoming Shows:</h2>
-          <p style="color:#bfbfbf;">
-            <p class="date">Friday 4/22</p><p>Norman Music Festival</p>
-            <p></p><br>
-
-            <p class="date">Saturday 5/14</p><p>The Deli - Norman, OK</p>
-            <p>(with Sun & Stone and Locust Avenue)</p><br>
-
-            <p class="date">Saturday 5/21</p><p>Barleycorn's - Wichita, KS</p>
-            <p>(with Sun & Stone and Spirit of the Stairs</p><br>
-
-            <p class="date"></p><p></p><br>
-
-
-          </p>
-        </div>
-
-        <div class="col-md-6 col-sm-6">
-          <center><img id="mainImg" src="../img/bandBW.jpg"></center>
-        </div>
-
+      <div class="col-md-6 col-sm-6">
+        <img id="aboutImg" src="../img/about.jpg">
+      </div>
+      <div id="about" class="col-md-5 col-sm-5">
+        <p><i>Clare Costello</i> - Guitarist, vocalist and lyricist</p>
+        <p><i>Felix Rodriguez</i> (Surf Minus Surf, Plain Speak) - Bassist</p>
+        <p><i>Matt Duckworth</i> (The Flaming Lips) - Drummer</p><br>
+        <p>
+            Costello is a psych/blues rock group from Norman, OK. In fall of 2016 they reunited with engineers Sam Welchel and Chad Copelin of Blackwatch Studios to record their sophomore album, “Conscious Trip.” The band consists of:</p>
+        <p><br>
+          The same crew, with a different drummer (Jason Scott) recorded their debut album “Manifest” in summer of 2015. Dan Millice of Engine Room audio mastered both albums.
+        </p><br>
+      </div>
+      <div class="col-md-2 col-sm-2">
       </div>
     </div>
   </div>
 
-
+</div>
+<div id="contactSection" class="col-md-12 col-sm-12">
+  <div id="contactTitle" class="col-md-12 col-sm-12">
+      <h1>Contact</h1>
+  </div>
+  <div id="contactBody" class="col-md-12" style="color:white;">
+    <div class="col-md-2">
+    </div>
+    <div id="contact" class="col-md-8">
+      <div class="col-md-6">
+        <img id="contactImg" src="../img/ccFgarage2.jpg">
+      </div>
+      <div id="contactContent" class="col-md-6">
+        <p>
+          Booking: <br>
+          costellobandok@gmail.com<br><br>
+        </p>
+        <p class="textRight">
+          Recording/Production: <br>
+          info@blackwatchstudios.com<br><br>
+        </p>
+        <p>
+          Social: <br>
+          facebook.com/costellobandok<br>
+          instagram.com/costellotheband<br>
+          twitter.com/costellobandok<br><br>
+        </p>
+        <p  class="textRight">
+          Website: <br>
+          riley.m.joseph1@gmail.com <br><br>
+        </p>
+      </div>
+    </div>
+    <div class="col-md-2">
+    </div>
+  </div>
+  </div>
   <div id="footer" class="col-md-12 navbar navbar-inverse navbar-fixed-bottom">
     <div class="col-md-3 col-sm-3 col-xs-3" id="footerLeft">
       <a style="color:#323232;" href="http://www.rileyjoseph.co">
@@ -79,6 +111,3 @@
       <!-- <a href="#"><i class="fa fa-spotify fa-2x"></i></a> -->
     </div>
   </div>
-
-
-</div>
