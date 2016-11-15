@@ -1,6 +1,7 @@
 #musicBackground{
-  background-image: url(/img/blackBackground.jpg);
-  height: 120%;
+/*  background-image: url(/img/blackBackground.jpg);
+*/  height: 120%;
+  background-color: white;
 }
 
 #musicTitle{
@@ -44,15 +45,57 @@ padding-top: 20px;
 
 #musicAlbum{
   display: block;
+  vertical-align: middle;
   max-height: 600px;
   margin-left: auto;
   margin-right: auto;
 }
+#musicSingle{
+  padding-left: auto;
+  display: block;
+  vertical-align: middle;
+  max-height: 600px;
+  margin-left: auto;
+  margin-right: auto;
+}
+.mainLinks{
+  text-align: center;
+  color: black;
+}
+@font-face {
+  font-family: 'KeeponTruckin';
+  src:
+      local('fonts/keep_on_truckin_fw/KeeponTruckin.ttf'),
+      url('fonts/keep_on_truckin_fw/KeeponTruckin.ttf'),
+      url('KeeponTruckin.ttf') format('embedded-opentype'), /* IE6-IE8 */
+       url('KeeponTruckin.ttf') format('woff2'), /* Super Modern Browsers */
+       url('KeeponTruckin.ttf') format('woff'), /* Pretty Modern Browsers */
+       url('KeeponTruckin.ttf')  format('truetype'), /* Safari, Android, iOS */
+       url('KeeponTruckin.ttf') format('svg'); /* Legacy iOS */
+}
+
+a.links{
+  display: inline;
+  color: black;
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
+  font-family: 'KeeponTruckin', Fallback, sans-serif;
+  font-size: 30px;
+  padding: 15px;
+  text-decoration: none;
+}
+a.links:hover{
+  color: #838e74;
+  text-decoration: none;
+}
 
 #album{
   border: 10px;
-  border-color: red;
+  /*border-color: red;*/
   border-width: 5px;
+  /*padding-bottom: 300px;*/
+  height: 90%;
 }
 #albumLink{
   color: red;
@@ -79,7 +122,7 @@ padding-top: 20px;
 }
 
 .fa:hover{
-  color: #B22222;;
+  color: #838e74;;
 }
 
 i.fa {
@@ -172,13 +215,6 @@ p#bannerText2 {
   /*padding-left: 57%;*/
 }
 
-/*html{
-  background: url(/img/manifestArtCrop2.png) no-repeat center center fixed;
-  -webkit-background-size: cover;
-  -moz-background-size: cover;
-  -o-background-size: cover;
-  background-size: cover;
-}*/
 
 #bg {
   position: fixed;
@@ -191,51 +227,95 @@ p#bannerText2 {
 }
 
 #musicMain{
-  /*background-image: url(/img/manifestArtCrop2.png);*/
-  /*background: transparent;*/
   height: auto;
   min-height: 150%;
   padding-left: 0px;
   padding-right: 0px;
 }
-
-#mainBody{
-  overflow: scroll;
+#singleSection{
+    width: 100%;
+    text-align: center;
+    margin: 0 auto;
+    height: 90%
 }
 
+iframe{
+  border: 0; 
+  width: 350px; 
+  height: 442px;
+} 
+
 #aboutMain{
-  background-image: url(/img/manifestArtCrop2.png);
-  /*background: cover;*/
   height: auto;
   min-height: 150%;
-/*  background-size: 100%;*/
-  /*height: 120%;*/
-  /*position: relative;*/
+}
+#mainBody{
+  /*overflow: scroll;*/
+  padding-top: 60px;
+}
+
+#aboutSection{
+  /*background-color: black;*/
+  height: 90%;
 }
 
 #about{
-  /*background-image: url("../img/manifestArt.");*/
-  min-height: 80%;
-  padding-top: 30px;
-  color: #bfbfbf;
-  font-family:'Majesti-Banner-Medium';
-  text-align: center;
+  /*background-color:black;*/
+  min-height: 50%;
+  padding-right: 10px;
+  padding-left: 10px;
+  color: black;
+  font-family: 'Roboto Condensed', sans-serif;
+  /*text-align: center;*/
   background-size: 100%;
 }
 
+#aboutTitle h1{
+  /*margin-top: 300px;*/
+  text-align: center;
+  font-family: 'KeeponTruckin';
+  font-size: 70px;
+  padding-top: 15px;
+  color: black;
+}
+
 #aboutImg{
-  width: 50%;
-  margin-bottom: 50px;
-  padding-bottom: 50px;
+  display: block;
+  text-align: center;
+  width: 80%;
+  margin-bottom: 5px;
+  /*padding-bottom: 5px;*/
+  margin-left: auto;
+  margin-right: auto;
+  box-shadow: -10px 10px 5px #888888;
+}
+
+#contactTitle h1{
+  /*margin-top: 300px;*/
+  text-align: center;
+  font-family: 'KeeponTruckin';
+  font-size: 70px;
+  padding-top: 15px;
 }
 
 #contactMain{
-  background-image: url(/img/manifestArtCrop2.png);
   background: cover;
   height: auto;
   min-height: 140%;
   padding-left: 0px;
   padding-right: 0px;
+}
+
+.textCenter{
+  text-align: center;
+}
+
+#center{
+  float: none;
+}
+
+p.textRight{
+  text-align: right;
 }
 
 #mainImg{
@@ -282,7 +362,8 @@ h2{
 }
 
 p{
-  color: #bfbfbf;
+  /*color: #222222;*/
+  font-size: 20px;
 }
 
 .titles{
@@ -304,12 +385,14 @@ p{
 #contactImg{
   width: 100%;
   margin-top: 2em;
-  opacity: .7;
+  /*opacity: .7;*/
 }
 
 #contact{
   /*margin-top: 1em;*/
-  background-color: rgba(0,0,0,.8);
+  /*background-color: rgba(0,0,0,.8);*/
+  background-image: url(/img/cartographer.png);
+  box-shadow: 10px 10px 5px #888888;
   height: auto;
   padding-bottom: 20px;
   overflow: scroll;
@@ -319,6 +402,11 @@ p{
   margin-top: 4em;
   color: #bfbfbf;
   overflow: scroll;
+  font-family: 'Roboto Condensed', sans-serif;
+}
+
+#contactbody{
+  padding-bottom: 150px;
 }
 
 #carousel-example-generic{
@@ -352,7 +440,8 @@ div#footerLeft{
 }
 
 #footer{
-  background-color: rgba(0,0,0,.9);
+  background-image: url(/img/cartographer.png);
+  /*background-color: rgba(0,0,0,.9);*/
   min-height: 50px;
   /*position:absolute;*/
   bottom:0;
