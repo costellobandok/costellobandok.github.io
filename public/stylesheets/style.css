@@ -1,0 +1,636 @@
+#musicBackground{
+/*  background-image: url(/img/blackBackground.jpg);
+*/  height: 120%;
+  background-color: white;
+}
+
+#musicTitle{
+    font-family: 'Slabo 27px', serif;
+    text-align: center;
+    font-size: 60px;
+    color: gray;
+    letter-spacing: 24px;
+    text-transform: uppercase;
+}
+
+#musicTitle2{
+    font-family: 'Slabo 27px', serif;
+/*    margin-top: -20px;*/
+    padding-top: 20px;
+    font-size: 30px;
+    color: gray;
+    letter-spacing: 48px;
+    text-transform: uppercase;
+    text-align: center;
+}
+
+#sideBar{
+  margin-top: 80px;
+  position: absolute;
+  float: left;
+  /*height: 300px;
+  border: 4px solid red;*/
+}
+
+#musicMainBody{
+  background-color: #E8D1A4;
+  background-position: center;
+  overflow: hidden;
+}
+
+#musicMainBackground{
+  background-color: #E8D1A4;
+  background-position: center;
+  }
+
+#musicAlbum{
+  display: block;
+  vertical-align: middle;
+  max-height: 600px;
+  margin-left: auto;
+  margin-right: auto;
+}
+#musicSingle{
+  padding-left: auto;
+  display: block;
+  vertical-align: middle;
+  max-height: 600px;
+  margin-left: auto;
+  margin-right: auto;
+}
+.mainLinks{
+  text-align: center;
+  color: black;
+}
+@font-face {
+  font-family: 'KeeponTruckin';
+  src:
+      local('fonts/keep_on_truckin_fw/KeeponTruckin.ttf'),
+      url('fonts/keep_on_truckin_fw/KeeponTruckin.ttf'),
+      url('KeeponTruckin.ttf') format('embedded-opentype'), /* IE6-IE8 */
+       url('KeeponTruckin.ttf') format('woff2'), /* Super Modern Browsers */
+       url('KeeponTruckin.ttf') format('woff'), /* Pretty Modern Browsers */
+       url('KeeponTruckin.ttf')  format('truetype'), /* Safari, Android, iOS */
+       url('KeeponTruckin.ttf') format('svg'); /* Legacy iOS */
+}
+
+a.links{
+  display: inline;
+  color: black;
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
+  font-family: 'KeeponTruckin', Fallback, sans-serif;
+  font-size: 30px;
+  padding: 15px;
+  text-decoration: none;
+}
+a.links:hover{
+  color: #838e74;
+  text-decoration: none;
+}
+
+#album{
+  border: 10px;
+  /*border-color: red;*/
+  border-width: 5px;
+  /*padding-bottom: 300px;*/
+  min-height: 90%;
+}
+#albumLink{
+  color: red;
+  font-weight: 400;
+  text-decoration: underline;
+}
+
+#availableNow{
+  color: white;
+  text-align: center;
+  font-size: 18px;
+}
+
+
+#availableNow2{
+  color: white;
+  text-align: center;
+  padding-top: 20px;
+  padding-bottom: 100px;
+}
+
+.fa{
+  color: #bfbfbf;
+}
+
+.fa:hover{
+  color: #838e74;;
+}
+
+i.fa {
+  float: right;
+  padding-left: 15px;
+  padding-top: 10px;
+}
+
+
+/*---------------------------------------MAIN PAGE------------------------------------------*/
+
+html{
+  /*max-height: 100%;*/
+}
+
+body{
+  /*max-height: 100%;*/
+  /*padding-top: 70px;*/
+}
+
+#banner{
+  margin-top: 50px;
+  /*margin-left: -20px;*/
+  background-color: rgba(0,0,0,.6);
+  height: 80px;
+  /*text-align: center;*/
+  border: none;
+  width: 100%!important;
+}
+a.bannerLinks {
+  background-color: rgba(0,0,0,.6);
+}
+
+.navbar-default .navbar-nav>li>a {
+    color: #bfbfbf!important;
+}
+
+.navbar-default .navbar-nav>li>a:hover {
+    color: #B22222!important;
+}
+
+#bannerA:hover{
+    color: #B22222;
+    background-color: transparent!important;
+    text-decoration: none;
+}
+
+#bannerA:visited{
+  text-decoration: none;
+}
+
+
+#bannerText{
+  font-size: 50px;
+  font-family: 'Majesti-Banner-Medium';
+  color: #bfbfbf;
+  height: 40px;
+  line-height: 40px;
+  /*padding-left: 57%;*/
+  /*text-align: center;*/
+  /*display: block;*/
+  /*letter-spacing: -8px;*/
+  /*font-weight: lighter;*/
+}
+ul.nav.navbar-nav {
+  /*padding-left: 300px;*/
+}
+
+a.bannerLinks {
+  text-align: right!important;
+  margin-right: 20px;
+}
+
+#bannerText2{
+  font-size: 50px;
+  font-family: 'Majesti-Banner-Medium';
+  color: #bfbfbf;
+}
+
+p#bannerText2 {
+    padding-top: 5px;
+}
+
+#navLeft{
+  padding-left: 220px;
+  /*padding-left: 57%;*/
+}
+
+
+#bg {
+  position: fixed;
+  top: 0;
+  left: 0;
+
+  /* Preserve aspet ratio */
+  min-width: 100%;
+  min-height: 100%;
+}
+
+#musicMain{
+  height: auto;
+  min-height: 150%;
+  padding-left: 0px;
+  padding-right: 0px;
+}
+#singleSection{
+    width: 100%;
+    text-align: center;
+    margin: 0 auto;
+    height: 90%
+}
+
+iframe{
+  border: 0; 
+  width: 350px; 
+  height: 442px;
+} 
+
+#aboutMain{
+  height: auto;
+  min-height: 150%;
+}
+#mainBody{
+  /*overflow: scroll;*/
+  padding-top: 60px;
+}
+
+#aboutSection{
+  /*min-height: 90%;*/
+}
+
+#about{
+  /*background-color:black;*/
+  min-height: 50%;
+  padding-right: 10px;
+  padding-left: 10px;
+  color: black;
+  font-family: 'Roboto Condensed', sans-serif;
+  /*text-align: center;*/
+  background-size: 100%;
+}
+
+#aboutTitle h1{
+  /*margin-top: 300px;*/
+  text-align: center;
+  font-family: 'KeeponTruckin';
+  font-size: 70px;
+  padding-top: 15px;
+  color: black;
+}
+
+#aboutImg{
+  display: block;
+  text-align: center;
+  width: 80%;
+  margin-bottom: 5px;
+  /*padding-bottom: 5px;*/
+  margin-left: auto;
+  margin-right: auto;
+  box-shadow: -10px 10px 5px #888888;
+}
+
+.textCenter{
+  text-align: center;
+}
+
+#center{
+  float: none;
+}
+
+p.textRight{
+  text-align: right;
+}
+
+#mainImg{
+  width: 80%;
+  border: 1px dotted black;
+  /*margin-bt: 45px;*/
+  /*opacity: .8;*/
+}
+
+@font-face {
+    font-family: 'Majesti-Banner-Medium';
+    src: url("fonts/Majesti-Banner-Medium.otf");
+    font-family: 'Majesti-Banner-BoldItalic.otf';
+    src: url("Majesti-Banner-BoldItalic.otf");
+    font-family: 'accent';
+    src: url("fonts/accent.ttf");
+}
+
+#bannerLinks{
+  padding-top: 15px;
+  padding-bottom: 15px;
+  font-size: 16px;
+  font-family: 'Majesti-Banner-Medium';
+  color: #bfbfbf;
+  font-style: italic;
+  word-spacing: 20px;
+  /*height: 70px;*/
+  /*line-height: 70px;*/
+  /*text-align: right;*/
+}
+
+a.bannerLinks {
+  text-decoration: none;
+  color: #bfbfbf;
+}
+
+a.bannerLinks:hover {
+    color: #B22222!important;
+    background-color: transparent!important;
+}
+
+h2{
+  color:#bfbfbf;
+}
+
+p{
+  /*color: #222222;*/
+  overflow: scroll;
+  font-size: 20px;
+}
+
+
+.titles{
+  /*color: #bfbfbf;*/
+}
+
+.date{
+  font-weight: bold;
+}
+
+#shows{
+  color: #bfbfbf;
+  font-family:'Majesti-Banner-Medium';
+  /*text-align: center;*/
+  margin-top: 15px;
+}
+
+#contactTitle h1{
+  /*margin-top: 300px;*/
+  text-align: center;
+  font-family: 'KeeponTruckin';
+  font-size: 70px;
+  padding-top: 15px;
+}
+
+#contactMain{
+  background: cover;
+  height: auto;
+  min-height: 140%;
+  padding-left: 0px;
+  padding-right: 0px;
+}
+
+#contactImg{
+  width: 100%;
+  margin-top: 2em;
+  /*opacity: .7;*/
+}
+
+#contact{
+  /*margin-top: 1em;*/
+  /*background-color: rgba(0,0,0,.8);*/
+  /*background-image: url(/img/cartographer.png);*/
+  /*box-shadow: 10px 10px 5px #888888;*/
+  height: auto;
+  padding-bottom: 20px;
+  overflow: scroll;
+}
+
+#contactContent{
+  margin-top: 4em;
+  color: 000000;
+  overflow: scroll;
+  font-family: 'Roboto Condensed', sans-serif;
+}
+
+#contactContent p{
+  font-size: 18px;
+}
+
+#contactContent2{
+  margin-top: 4em;
+}
+
+#contactbody{
+  padding-bottom: 150px;
+}
+
+#carousel-example-generic{
+  height: 90%;
+}
+
+
+#rjLogo{
+  width: 60px;
+  padding-bottom: 5px;
+  padding-top: 5px;
+}
+
+
+#footerLeft{
+  /*padding-top: 5px;*/
+  /*padding-bottom: 5px;*/
+  min-height: 50px;
+  max-width: 34%;
+  display: inline;
+}
+
+div#footerLeft{
+  padding-top: 10px;
+}
+
+#copywrite{
+  padding-top: 10px;
+  display: inline;
+  text-align: center;
+}
+
+#footer{
+  background-image: url(/images/cartographer.png);
+  /*background-color: rgba(0,0,0,.9);*/
+  min-height: 50px;
+  /*position:absolute;*/
+  bottom:0;
+  width: 100%;
+}
+
+@media (max-width: 768px) {
+
+  #navLeft{
+      display: inline;
+  }
+
+  #bannerText{
+    font-size: 30px!important;
+    font-family: 'Majesti-Banner-Medium';
+    color: #bfbfbf;
+    line-height: 40px!important;
+    /*padding-bottom: 30px!important;*/
+    height: 10px!important;
+    /*background-color: rgba(0,0,0,.8);*/
+  }
+
+}
+
+
+@media (max-width: 790px) {
+
+  #navLeft{
+    padding-left: 20px!important;
+  }
+
+  #bannerText{
+    font-size: 30px!important;
+    font-family: 'Majesti-Banner-Medium';
+    color: #bfbfbf;
+    line-height: 0px!important;
+    padding-bottom: 30px!important;
+    height: 10px!important;
+    padding-top: -20px!important;
+  }
+
+  a.bannerLinks{
+    padding-top: 20px;
+    padding-bottom: 20px;
+    font-size: 8px;
+    font-family: 'Majesti-Banner-Medium';
+    color: #bfbfbf;
+    padding-right: 0px!important;
+  /*text-align: right;*/
+  }
+
+  button.navbar-toggle{
+    /*margin-top: 30px;*/
+  }
+
+}
+
+
+
+@media (max-width: 850px) {
+
+  #navLeft{
+    padding-left: 50px!important;
+  }
+
+  #bannerText{
+    font-size: 40px!important;
+    font-family: 'Majesti-Banner-Medium';
+    color: #bfbfbf;
+    line-height: 0px!important;
+    padding-bottom: 30px!important;
+    height: 10px!important;
+  }
+
+  a.bannerLinks{
+    padding-top: 20px;
+    padding-bottom: 20px;
+    font-size: 12px;
+    font-family: 'Majesti-Banner-Medium';
+    color: #bfbfbf;
+    /*text-align: right;*/
+  }
+
+}
+
+
+@media (max-width: 930px) {
+
+  #navLeft{
+    /*padding-left: 50%;*/
+  }
+
+  #bannerText{
+    font-size: 40px;
+    font-family: 'Majesti-Banner-Medium';
+    color: #bfbfbf;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    line-height: 70px;
+  }
+
+  #bannerLinks{
+    padding-top: 20px;
+    padding-bottom: 20px;
+    font-size: 10px;
+    font-family: 'Majesti-Banner-Medium';
+    color: #bfbfbf;
+    /*text-align: right;*/
+  }
+
+
+}
+
+@media (max-width: 970px) {
+
+
+
+
+    #navLeft{
+    /*padding-left: 38%;*/
+  }
+
+  #bannerText{
+    font-size: 40px;
+    font-family: 'Majesti-Banner-Medium';
+    color: #bfbfbf;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    line-height: 70px!important;
+  }
+
+  #bannerLinks{
+    padding-top: 10px;
+    padding-bottom: 10px;
+    font-size: 12px;
+    font-family: 'Majesti-Banner-Medium';
+    color: #bfbfbf;
+    /*text-align: right;*/
+  }
+
+  #banner{
+    height: 80px;
+  }
+
+#contactContent{
+  /*margin-top: 4em;*/
+  color: #bfbfbf;
+  text-align: center;
+}
+
+
+
+}
+
+@media (max-width: 1100px) {
+
+  #navLeft{
+    padding-left: 200px;
+  }
+
+  #bannerText{
+    font-size: 50px;
+    font-family: 'Majesti-Banner-Medium';
+    color: #bfbfbf;
+    height: 40px;
+    line-height: 75px;
+    display: inline;
+    /*padding-left: 195px;*/
+    /*width: 45%;*/
+  }
+
+  #bannerLinks{
+    padding-top: 10px;
+    padding-bottom: 10px;
+    font-size: 14px;
+    font-family: 'Majesti-Banner-Medium';
+    color: #bfbfbf;
+    /*text-align: right;*/
+  }
+
+  #banner{
+    height: 80px;
+        white-space: nowrap;
+    /*overflow: hidden;*/
+  }
+
+
+}
