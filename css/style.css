@@ -469,6 +469,10 @@ div#footerLeft{
 
 @media (max-width: 790px) {
 
+  #about p{
+    padding-top: 15px;
+  }
+
   #navLeft{
     padding-left: 20px!important;
   }
@@ -503,6 +507,10 @@ div#footerLeft{
 
 @media (max-width: 850px) {
 
+  #about p{
+    padding-top: 15px;
+  }
+
   #navLeft{
     padding-left: 50px!important;
   }
@@ -529,6 +537,10 @@ div#footerLeft{
 
 
 @media (max-width: 930px) {
+
+  #about p{
+    padding-top: 15px;
+  }
 
   #navLeft{
     /*padding-left: 50%;*/
