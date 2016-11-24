@@ -241,17 +241,10 @@ iframe{
   height: 442px;
 } 
 
-#aboutMain{
-  height: auto;
-  min-height: 150%;
-}
-#mainBody{
-  /*overflow: scroll;*/
-  padding-top: 60px;
-}
-
 #aboutSection{
-  /*min-height: 90%;*/
+  /*min-height: 150%;*/
+  padding-top: 60px;
+
 }
 
 #about{
@@ -263,6 +256,7 @@ iframe{
   font-family: 'Roboto Condensed', sans-serif;
   /*text-align: center;*/
   background-size: 100%;
+  min-width: 475px;
 }
 
 #aboutTitle h1{
@@ -455,7 +449,7 @@ div#footerLeft{
 @media (max-width: 768px) {
 
   #navLeft{
-      display: inline;
+    display: inline;
   }
 
   #bannerText{
@@ -463,10 +457,12 @@ div#footerLeft{
     font-family: 'Majesti-Banner-Medium';
     color: #bfbfbf;
     line-height: 40px!important;
-    /*padding-bottom: 30px!important;*/
     height: 10px!important;
-    /*background-color: rgba(0,0,0,.8);*/
   }
+
+  #about{
+      padding-top: 15px;
+    }
 
 }
 
@@ -562,10 +558,8 @@ div#footerLeft{
 @media (max-width: 970px) {
 
 
-
-
-    #navLeft{
-    /*padding-left: 38%;*/
+  #about p{
+    padding-top: 15px;
   }
 
   #bannerText{
@@ -593,7 +587,7 @@ div#footerLeft{
 #contactContent{
   /*margin-top: 4em;*/
   color: #bfbfbf;
-  text-align: center;
+  /*text-align: center;*/
 }
 
 
@@ -623,7 +617,6 @@ div#footerLeft{
     font-size: 14px;
     font-family: 'Majesti-Banner-Medium';
     color: #bfbfbf;
-    /*text-align: right;*/
   }
 
   #banner{
