@@ -17,11 +17,15 @@ costelloApp.config(['$routeProvider', '$locationProvider', function($routeProvid
       controller: 'HomeController'
     })
     .when('/contact',{
-      templateUrl: '/views/contact.html',
+      templateUrl: '/views/contact_old.html',
       controller: 'HomeController'
     })
     .when('/images',{
       templateUrl: '/views/images.html',
+      controller: 'HomeController'
+    })
+    .when('/gallery',{
+      templateUrl: '/views/gallery.html',
       controller: 'HomeController'
     })
     .otherwise({
@@ -37,14 +41,25 @@ costelloApp.config(['$routeProvider', '$locationProvider', function($routeProvid
 costelloApp.controller('HomeController', ['$scope','$location', function($scope,$location) {
 
 $(document).ready(function(){
-    $(".navbar-toggle").click(function(){
-        $(".collapse").collapse('toggle');
-    });
+  $(".navbar-toggle").click(function(){
+    $(".collapse").collapse('toggle');
+  });
 
-    $('.carousel').carousel()
+function createSlick(){ 
 
+  $('.slick-carousel').not('.slick-initialized').slick({
+      // autoplay: true,
+      dots: true,
+      infinite: true,
+      autoplaySpeed: 1000,
+      speed: 300,
+      slidesToShow: 1,
+      slidesToScroll: 1,
+      adaptiveHeight: true
+  });
+}
+
+  createSlick();
 });
-
-  console.log($location.path());
 
 }]);
