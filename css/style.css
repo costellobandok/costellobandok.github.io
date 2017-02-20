@@ -288,6 +288,17 @@ body{
   color: black;
   height: 40px;
 }
+
+  #bannerText{
+    font-size: 50px;
+    font-family: 'Majesti-Banner-Medium';
+    color: black;
+    height: 40px;
+    line-height: 75px;
+    display: inline;
+
+  }
+
 ul.nav.navbar-nav {
   /*padding-left: 300px;*/
 }
