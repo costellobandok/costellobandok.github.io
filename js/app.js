@@ -48,7 +48,7 @@ $(document).ready(function(){
 function createSlick(){ 
 
   $('.slick-carousel').not('.slick-initialized').slick({
-      // autoplay: true,
+      autoplay: true,
       dots: true,
       infinite: true,
       autoplaySpeed: 1000,
