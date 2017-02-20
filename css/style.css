@@ -142,7 +142,8 @@ h1 {
 #musicAlbum{
   display: block;
   vertical-align: middle;
-  max-height: 600px;
+  max-height: 1000px;
+  min-height: 800px;
   margin-left: auto;
   margin-right: auto;
 }
@@ -807,6 +808,15 @@ div#footerLeft{
 
 @media only screen and (max-device-width: 480px) {
 
+  #musicAlbum{
+    min-height: 850px;
+    max-height: 1000px;
+  }
+
+  i.fa{
+    padding-top: 40px;
+  }
+
   #galleryMain{
     min-height: 130%;
   }
@@ -828,6 +838,11 @@ div#footerLeft{
   .aboutBody{
     padding-top: 50px;
     margin-left: 80px;
+  }
+
+  .aboutBody p{
+    font-size: 30px;
+    font-family: 'Majesti-Banner-Medium';
   }
 
   .contact{
