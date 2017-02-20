@@ -142,8 +142,8 @@ h1 {
 #musicAlbum{
   display: block;
   vertical-align: middle;
-  max-height: 1000px;
-  min-height: 800px;
+  max-height: 550px;
+  min-height: 400px;
   margin-left: auto;
   margin-right: auto;
 }
