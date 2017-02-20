@@ -51,7 +51,7 @@ function createSlick(){
       autoplay: true,
       dots: true,
       infinite: true,
-      autoplaySpeed: 1000,
+      autoplaySpeed: 3000,
       speed: 300,
       slidesToShow: 1,
       slidesToScroll: 1,
