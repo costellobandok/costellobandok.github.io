@@ -8,6 +8,7 @@
 
 #galleryMain{
   padding: 0px!important;
+  min-height: 200%!important;
 }
 
 
@@ -233,7 +234,7 @@ i.fa {
 .page-title{
   padding-top: 50px;
   color: black;
-  text-align: center;
+  text-align: center; 
   font-size:45px;
   font-family: 'KeeponTruckin';
 }
@@ -369,7 +370,7 @@ iframe{
 
 .about{
   /*background-color:black;*/
-  min-height: 50%;
+  min-height: 100%;
   padding-right: 10px;
   padding-left: 10px;
   color: black;
@@ -509,7 +510,7 @@ p{
 
 #contactMain{
   background: cover;
-  height: auto;
+  min-height: 130%;
   padding-left: 0px;
   padding-right: 0px;
 }
@@ -805,6 +806,10 @@ div#footerLeft{
 
 
 @media only screen and (max-device-width: 480px) {
+
+  #galleryMain{
+    min-height: 130%;
+  }
 
   .mobileHr{
     display:block;
