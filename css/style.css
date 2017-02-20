@@ -838,6 +838,16 @@ div#footerLeft{
   .contactContent{
     color:black!important;
   }
+  .contactContent p {
+    font-size: 30px!important;
+    font-family: 'Majesti-Banner-Medium';
+    line-height: 1.5;
+  }
+
+  .contactContent .bold{
+    font-size: 36px!important;
+    font-family: 'Majesti-Banner-Medium';
+  }
 
   .contactContentImg{
     margin-top: 0em;
