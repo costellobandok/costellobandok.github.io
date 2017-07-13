@@ -6,6 +6,15 @@
   padding-bottom: 100px;
 }
 
+.gallery-img{
+  width: 200px;
+  height: 280px;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: 50% 50%;
+  margin: 5px;
+}
+
 #galleryMain{
   padding: 0px!important;
   min-height: 200%!important;
@@ -28,7 +37,7 @@
 }
 
 .subGalleryLast{
-  padding-bottom: 150px!important;
+  margin-bottom: 150px!important;
 }
 
 .subGallery {
@@ -43,7 +52,7 @@
   padding: 5px;
 }
 
-.subGallery > div > img {
+.subGallery > div {
   display: block;
   width: 200px;
   transition: .1s transform;
@@ -54,7 +63,7 @@
   z-index: 1;
 }
 
-.subGallery > div:hover > img {
+.subGallery > div:hover {
   transform: scale(1.7,1.7);
   transition: .3s transform;
 }
